@@ -14,6 +14,6 @@ public class DemoTest
         TestMain testMain = new TestMain();
         Person personA = new Person("personA",60f);
         Person personB = new Person("personB",40f);
-        System.out.println("The time is:"+testMain.getResult(personA,personB,800));
+        System.out.println("The time is:"+String.format("%.2f",testMain.getResult(personA,personB,800)));
     }
 }
