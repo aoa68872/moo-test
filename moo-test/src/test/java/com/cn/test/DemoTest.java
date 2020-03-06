@@ -9,7 +9,6 @@ import org.junit.Test;
 
 public class DemoTest
 {
-    @Test
     public static void main(String[] args) {
         TestMain testMain = new TestMain();
         Person personA = new Person("personA",60f);
